@@ -59,10 +59,12 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    overflow: hidden;
 }
 
 .logo-gif {
-    height: 50px;
+    height: 100px;
+    transform: scale(2) translate(15%, -1%);
     width: auto;
     display: block;
     transition: opacity 0.3s ease;
